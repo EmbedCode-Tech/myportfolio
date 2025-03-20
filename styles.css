@@ -251,6 +251,7 @@ img {
   border-radius: 0.5rem;
 }
 .button_1 {
+  text-align: center;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
