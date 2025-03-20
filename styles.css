@@ -250,6 +250,18 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.button_1 {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+.button_1:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
