@@ -251,6 +251,9 @@ img {
   border-radius: 0.5rem;
 }
 .button_1 {
+  position: absolute;
+  right: 460px; /* Distance from the right */
+  top: 170%;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -258,7 +261,7 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
-  width: 200px;
+  width: 250px;
   height: 50px;
 }
 .button_1:hover {
