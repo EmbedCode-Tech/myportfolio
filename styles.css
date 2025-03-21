@@ -1,4 +1,4 @@
-
+            
             /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
@@ -258,7 +258,7 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
-  width: 150px;
+  width: 200px;
   height: 50px;
 }
 .button_1:hover {
