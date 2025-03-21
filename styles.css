@@ -249,22 +249,42 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
+/* Center container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Full screen height */
+  background-color: #f0f0f0;
+  margin: 0;
 }
+
+/* Button styles */
 .button_1 {
-  position: absolute;
-  right: 460px; /* Distance from the right */
-  top: 170%;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 0.75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: 0.5rem;
-  transition: 0.3s;
-  width: 250px;
-  height: 50px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+ 
+  transition: all 0.3s ease;
 }
+
+/* Button hover effect */
 .button_1:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  background-color: #0056b3;
+  transform: scale(1.1);  /*Slightly increase size */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive button size for smaller screens */
+@media (max-width: 600px) {
+  .button_1 {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
 }
 
 /* ===== SKILLS =====*/
