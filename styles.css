@@ -258,7 +258,7 @@ img {
   
 }
 /* Center container */
-.container {
+.resume_container {
   display: flex;
   justify-content: center;
   align-items: center;
