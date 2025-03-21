@@ -253,7 +253,7 @@ img {
 .button_1 {
   position: absolute;
   right: 20px; /* Distance from the right */
-  top: 50%;
+
   background-color: var(--first-color);
   color: #fff;
   padding: 0.75rem 2.5rem;
