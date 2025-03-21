@@ -223,7 +223,6 @@ img {
 
 /*BUTTONS*/
 .button {
-  align: center;
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -252,10 +251,11 @@ img {
   border-radius: 0.5rem;
 }
 .button_1 {
+            
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 8px 16px;
+  padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
