@@ -250,7 +250,7 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 /* Center container */
-.container {
+.container_Resume {
   display: flex;
   justify-content: center;
   align-items: center;
