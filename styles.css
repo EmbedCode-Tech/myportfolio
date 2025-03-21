@@ -251,9 +251,7 @@ img {
   border-radius: 0.5rem;
 }
 .button_1 {
-  position: absolute;
   right: 20px; /* Distance from the right */
-
   background-color: var(--first-color);
   color: #fff;
   padding: 0.75rem 2.5rem;
