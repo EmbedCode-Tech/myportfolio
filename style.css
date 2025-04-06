@@ -385,7 +385,8 @@ img {
   outline: none;
   margin-bottom: var(--mb-4);
 }
-.contact__ {
+.contact__input {
+       text-align: center;
        
 }
 
