@@ -385,13 +385,8 @@ img {
   outline: none;
   margin-bottom: var(--mb-4);
 }
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+.contact__ {
+       
 }
 
 /* ===== FOOTER =====*/
