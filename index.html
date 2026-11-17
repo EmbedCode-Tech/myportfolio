@@ -1,205 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Rohit Jadhav — Java Backend Developer specializing in Java, Spring Boot, REST APIs, Hibernate, Spring Security and MySQL.">
+  <title>Rohit Jadhav | Java Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scroll-progress"></div>
 
-        <!-- =====BOX ICONS===== -->    
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Rohit Jadhav home"><span class="logo-mark">RJ</span><span>Rohit<span class="logo-dot">.</span></span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-menu">
+        <i class="bx bx-menu"></i>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-cta" href="Rohit_Jadhav_Resume.pdf" target="_blank" rel="noopener">Resume <i class="bx bx-download"></i></a>
+      </div>
+    </nav>
+  </header>
 
-        <title>Portfolio website complete</title>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="availability"><span class="availability-dot"></span> Open to Java Backend opportunities</div>
+          <p class="eyebrow">HELLO, I'M ROHIT JADHAV</p>
+          <h1>Building reliable<br><span class="gradient-text">backend solutions.</span></h1>
+          <p class="hero-description">Java Backend Developer focused on building secure, maintainable applications and REST APIs using Java, Spring Boot, Hibernate and MySQL.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <i class="bx bx-right-arrow-alt"></i></a>
+            <a class="btn btn-outline" href="Rohit_Jadhav_Resume.pdf" target="_blank" rel="noopener">View resume <i class="bx bx-file"></i></a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/rohit-jadhav-7a60ab213/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/EmbedCode-Tech" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="mailto:rohitjadhav20181920@gmail.com" aria-label="Email"><i class="bx bx-envelope"></i></a>
+          </div>
+        </div>
 
+        <div class="hero-visual reveal">
+          <div class="visual-glow"></div>
+          <div class="code-card">
+            <div class="code-card-top"><div class="window-dots"><span></span><span></span><span></span></div><span>BackendDeveloper.java</span><i class="bx bx-code-alt"></i></div>
+            <pre><code><span class="code-purple">public class</span> <span class="code-yellow">BackendDeveloper</span> {
 
-  </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Rohit</a>
-                </div>
+  <span class="code-purple">private</span> String name =
+    <span class="code-green">"Rohit Jadhav"</span>;
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+  <span class="code-purple">private</span> String[] skills = {
+    <span class="code-green">"Java"</span>,
+    <span class="code-green">"Spring Boot"</span>,
+    <span class="code-green">"REST APIs"</span>,
+    <span class="code-green">"MySQL"</span>
+  };
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-        <main class="l-main">,
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Rohit Jadhav</span><br> Software Developer</h1>
+  <span class="code-purple">public</span> String build() {
+    <span class="code-purple">return</span>
+      <span class="code-green">"Clean &amp; secure software"</span>;
+  }
+}</code></pre>
+            <div class="code-card-footer"><span><i class="bx bx-check-circle"></i> Ready to build</span><span>Java · Spring Boot</span></div>
+          </div>
+          <div class="floating-chip chip-one"><i class="bx bxl-java"></i> Java</div>
+          <div class="floating-chip chip-two"><i class="bx bx-data"></i> REST APIs</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
 
-                    <a href="#" class="button">Contact</a>
-                </div>
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span class="gradient-text">me</span></h2><p>A developer who enjoys turning problems into practical solutions.</p></div>
+        <div class="about-grid">
+          <div class="about-panel reveal">
+            <div class="about-icon"><i class="bx bx-code-curly"></i></div>
+            <h3>Java Backend Developer</h3>
+            <p>I am a software professional with 3 years of overall IT experience, including 2 years focused on Java backend development. I work with Java, Spring Boot, Spring MVC, Hibernate/JPA and MySQL to build application features and backend services.</p>
+            <p>My development work includes implementing business logic, creating RESTful APIs, integrating databases, writing SQL queries and applying authentication and authorization using Spring Security and JWT.</p>
+            <p>I value readable code, practical problem-solving and continuous learning. I am looking to contribute to a development team where I can build dependable software and grow as a backend engineer.</p>
+            <a class="text-link" href="Rohit_Jadhav_Resume.pdf" target="_blank" rel="noopener">View my resume <i class="bx bx-up-right-arrow-alt"></i></a>
+          </div>
+          <div class="about-facts reveal">
+            <div class="fact-card"><span class="fact-icon"><i class="bx bx-briefcase"></i></span><div><strong>3 years</strong><span>Overall IT experience</span></div></div>
+            <div class="fact-card"><span class="fact-icon"><i class="bx bx-code-alt"></i></span><div><strong>2 years</strong><span>Java development experience</span></div></div>
+            <div class="fact-card"><span class="fact-icon"><i class="bx bx-layer"></i></span><div><strong>Backend focus</strong><span>APIs, business logic &amp; databases</span></div></div>
+            <div class="fact-card"><span class="fact-icon"><i class="bx bx-book-open"></i></span><div><strong>Always learning</strong><span>Improving engineering skills</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/rohit-jadhav-7a60ab213/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/EmbedCode-Tech" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">WHAT I WORK WITH</p><h2>Technical <span class="gradient-text">skills</span></h2><p>Technologies and tools I use across backend development.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bxl-java"></i></div><h3>Programming</h3><div class="tags"><span>Core Java</span><span>Java 8+</span><span>OOP</span><span>JDBC</span><span>Servlets &amp; JSP</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bx-layer"></i></div><h3>Backend framework</h3><div class="tags"><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>Hibernate</span><span>JPA</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bx-shield-quarter"></i></div><h3>API &amp; security</h3><div class="tags"><span>REST APIs</span><span>JWT</span><span>RBAC</span><span>BCrypt</span><span>MVC architecture</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bx-data"></i></div><h3>Database</h3><div class="tags"><span>MySQL</span><span>SQL</span><span>SQL Server</span><span>Joins</span><span>Query debugging</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bx-wrench"></i></div><h3>Tools &amp; workflow</h3><div class="tags"><span>Git</span><span>GitHub</span><span>Maven</span><span>Eclipse</span><span>Spring Tool Suite</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-icon"><i class="bx bx-globe"></i></div><h3>Web fundamentals</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript basics</span><span>JSON</span><span>Client-server concepts</span></div></article>
+        </div>
+      </div>
+    </section>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="0" y="0" href="Rohitimage.jpg"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">SELECTED DEVELOPMENT WORK</p><h2>Featured <span class="gradient-text">projects</span></h2><p>Examples of applications and backend concepts I have worked on.</p></div>
+        <div class="projects-grid">
+          <article class="project-card reveal"><div class="project-top"><span class="project-number">01</span><i class="bx bx-buildings"></i></div><h3>Society Management System</h3><p>A Spring Boot application concept for managing residents, flats, maintenance billing, complaints and notices with role-based access.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>MySQL</span><span>Thymeleaf</span></div><a class="project-link" href="https://github.com/EmbedCode-Tech" target="_blank" rel="noopener">Explore GitHub <i class="bx bx-up-right-arrow-alt"></i></a></article>
+          <article class="project-card reveal"><div class="project-top"><span class="project-number">02</span><i class="bx bx-cart"></i></div><h3>FoodPlazza</h3><p>A food ordering application built around menu browsing, cart handling and order workflows, with database-backed application logic.</p><div class="tags"><span>Java</span><span>Servlets</span><span>JSP</span><span>MySQL</span></div><a class="project-link" href="https://github.com/EmbedCode-Tech" target="_blank" rel="noopener">Explore GitHub <i class="bx bx-up-right-arrow-alt"></i></a></article>
+          <article class="project-card reveal"><div class="project-top"><span class="project-number">03</span><i class="bx bx-plus-medical"></i></div><h3>Hospital Management System</h3><p>An application project focused on organizing hospital-related information and supporting common management workflows.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>SQL</span><span>Backend</span></div><a class="project-link" href="https://github.com/EmbedCode-Tech" target="_blank" rel="noopener">Explore GitHub <i class="bx bx-up-right-arrow-alt"></i></a></article>
+          <article class="project-card reveal"><div class="project-top"><span class="project-number">04</span><i class="bx bx-receipt"></i></div><h3>Medical Billing System</h3><p>A project focused on supporting medical billing workflows, structured data handling and database operations.</p><div class="tags"><span>Java</span><span>SQL</span><span>Database</span><span>Application logic</span></div><a class="project-link" href="https://github.com/EmbedCode-Tech" target="_blank" rel="noopener">Explore GitHub <i class="bx bx-up-right-arrow-alt"></i></a></article>
+        </div>
+        <p class="projects-note"><i class="bx bx-info-circle"></i> Project links currently point to your GitHub profile. Replace them with individual repository URLs when ready.</p>
+      </div>
+    </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div><p class="eyebrow">LET'S CONNECT</p><h2>Have a role or project<br><span class="gradient-text">in mind?</span></h2><p class="contact-copy">I’m interested in Java Backend Developer opportunities. Feel free to reach out to discuss a role or connect professionally.</p></div>
+          <div class="contact-details">
+            <a href="mailto:rohitjadhav20181920@gmail.com"><i class="bx bx-envelope"></i><span><small>Email</small>rohitjadhav20181920@gmail.com</span><i class="bx bx-up-right-arrow-alt"></i></a>
+            <a href="tel:+917066528759"><i class="bx bx-phone"></i><span><small>Phone</small>+91 70665 28759</span><i class="bx bx-up-right-arrow-alt"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-jadhav-7a60ab213/" target="_blank" rel="noopener"><i class="bx bxl-linkedin"></i><span><small>LinkedIn</small>Connect with me</span><i class="bx bx-up-right-arrow-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="Main.webp" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Rohit</h2>
-                        <p class="about__text">I am a passionate Java Backend Developer with 3 years of overall IT experience, including hands-on experience in backend application development using Core Java, Java 8, Spring Boot, Spring MVC, Hibernate, JPA, and MySQL.
+  <footer class="footer">
+    <div class="container footer-inner"><a class="logo" href="#home"><span class="logo-mark">RJ</span><span>Rohit<span class="logo-dot">.</span></span></a><p>Designed &amp; built by Rohit Jadhav</p><a class="back-top" href="#home" aria-label="Back to top"><i class="bx bx-up-arrow-alt"></i></a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Rohit Jadhav. All rights reserved.</span><span>Java · Spring Boot · Backend Development</span></div>
+  </footer>
 
-I specialize in developing backend modules, designing and implementing RESTful APIs, writing business logic, integrating databases, and implementing secure authentication and authorization using Spring Security and JWT. I have experience working with MVC architecture, JDBC, SQL queries, debugging, application optimization, and Git-based version control.
-
-I have worked on projects such as Society Management System, Hospital Management System, and Medical Billing System, gaining practical exposure to backend development, database management, application integration, and maintenance.
-
-I enjoy solving real-world technical challenges, writing clean and maintainable code, exploring new technologies, and continuously improving my backend development skills. My goal is to build secure, scalable, and high-performance applications while growing as a Java Backend Engineer.</p> 
-                          </div></div>
-                          <div class="resume_container">
-                            <a href="Rohit_Jadhav_Resume.pdf" class="button_1">Download Resume</a>
-                          </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid"><div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text"></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">JAVA</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">SPRINGBOOT</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">HTML</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                       <div class="skills__names">
-                       <i class='bx bxl-microsoft skills__icon'></i>
-                          <span class="skills__name">CSS</span>
-                      </div>
-                          <div class="skills__bar skills__ux">
-        
-                       </div>
-                        <div>
-                             <span class="skills__percentage">80%</span>
-                       </div>
-                       </div>
-                    
-                    <div><img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="Work1.jpeg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="Work2.jpeg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="Work3.jpeg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="Work4.jpeg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="Work5.jpeg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="Work6.jpeg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <h2 class="contact__input">Mail :rohitjadhav20181920@gmail.com</h2>
-                        <h2 class="contact__input">Mobile No: 7066528759</h2>
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Rohit Jadhav</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/mr_rj.o7/?next=%2Fmr_rj.o7%2F" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; EmbedCode-Tech. All rigths reserved</p>
-        </footer>
-                    <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="main.js"></script>
-    </body>
+  <script src="main.js"></script>
+</body>
 </html>
